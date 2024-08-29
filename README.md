@@ -22,8 +22,8 @@ export default defineConfig({
     fontminPlugin({
       fonts: [
         {
-          fontSrc: ['./src/fonts/*.ttf'],
-          fontDest: './src/compressed-fonts/',
+          fontSrc: ['./src/assets/fonts/*.ttf'],
+          fontDest: './src/assets/compressed-fonts/',
           inputPath: ['./src/**/*.{vue,js,ts}'], // or input: 'Your text here',
           // input: 'Your text here', 
         }
