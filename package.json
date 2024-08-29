@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-fontmin",
+  "name": "vite-plugin-fontm",
   "version": "0.1.1",
   "description": "A Vite plugin for font subsetting and minification using Fontmin",
   "main": "dist/vite-plugin-fontmin.js",
@@ -16,15 +16,15 @@
   "author": {
     "name": "doraemonkeys",
     "email": "doraemonkey@foxmail.com",
-    "url": "https://github.com/doraemonkeys/vite-plugin-fontmin"
+    "url": "https://github.com/doraemonkeys/vite-plugin-fontm"
   },
   "license": "MIT",
-  "homepage": "https://github.com/doraemonkeys/vite-plugin-fontmin",
+  "homepage": "https://github.com/doraemonkeys/vite-plugin-fontm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doraemonkeys/vite-plugin-fontmin.git"
+    "url": "git+https://github.com/doraemonkeys/vite-plugin-fontm.git"
   },
-  "bugs": "https://github.com/doraemonkeys/vite-plugin-fontmin/issues",
+  "bugs": "https://github.com/doraemonkeys/vite-plugin-fontm/issues",
   "keywords": [
     "vite",
     "font",
