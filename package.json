@@ -1,0 +1,55 @@
+{
+  "name": "vite-plugin-fontmin",
+  "version": "0.1.1",
+  "description": "A Vite plugin for font subsetting and minification using Fontmin",
+  "main": "dist/vite-plugin-fontmin.js",
+  "types": "dist/vite-plugin-fontmin.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": {
+    "name": "doraemonkeys",
+    "email": "doraemonkey@foxmail.com",
+    "url": "https://github.com/doraemonkeys/vite-plugin-fontmin"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/doraemonkeys/vite-plugin-fontmin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doraemonkeys/vite-plugin-fontmin.git"
+  },
+  "bugs": "https://github.com/doraemonkeys/vite-plugin-fontmin/issues",
+  "keywords": [
+    "vite",
+    "font",
+    "optimization",
+    "compress",
+    "minify",
+    "minification",
+    "subsetting",
+    "fontmin",
+    "extractor",
+    "vite-plugin"
+  ],
+  "peerDependencies": {
+    "vite": "*"
+  },
+  "peerDependenciesMeta": {
+    "vite": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "fontmin": "^1.1.0",
+    "glob": "^11.0.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}
