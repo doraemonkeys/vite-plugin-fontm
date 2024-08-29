@@ -28,7 +28,7 @@ export default defineConfig({
           // input: 'Your text here', 
         }
       ],
-      runOnceInDev: true // Optional: compress fonts in development mode
+      runOnceInDev: true // Optional: compress fonts in development mode only once
     })
   ]
 })
