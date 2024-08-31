@@ -43,5 +43,5 @@ The plugin accepts the following options:
   - `fontDest`: Destination folder for compressed fonts
   - `input`: Text to use for font subsetting
   - `inputPath`: File paths to scan for text (glob patterns supported)
-- `runOnceInDev`: Whether to run font compression in development mode
+- `runOnceInDev`: Compress fonts in development mode only once
 
